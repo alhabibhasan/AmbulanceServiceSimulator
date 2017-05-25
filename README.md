@@ -9,3 +9,5 @@ To run:
 <li> Use the following command: optic-clp.exe theDomainFile.pddl theProblemFile.pddl </li>
 <li> To get a non-optimised result do this: optic-clp.exe -N theDomainFile.pddl theProblemFile.pddl </li>
 </ol>
+
+NB: The planner uses a lot of RAM, so at times you may not ba able to get a fully optimised result. In such cases I would recommend opting for the non-optimised result.
